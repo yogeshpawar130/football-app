@@ -9,7 +9,6 @@ import { leaguesMenu } from '../../model/football.model';
 export class NavBarComponent implements OnInit, OnChanges {
   countryList: leaguesMenu[] = [];
   @Input() selected?: number;
-  // @Output() notify = new EventEmitter<number>();
 
   constructor() {
 

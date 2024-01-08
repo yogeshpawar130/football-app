@@ -10,8 +10,8 @@ describe('LeagueStandingComponent', () => {
     await TestBed.configureTestingModule({
       imports: [LeagueStandingComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(LeagueStandingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
