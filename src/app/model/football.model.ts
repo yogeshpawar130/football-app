@@ -11,7 +11,7 @@ export interface leaguesMenu extends cache {
   export interface StandingObject extends cache {
     get: string;
     parameters:param;
-    errors: any[];
+    errors: [];
     results: number;
     paging: Paging;
     response: StandingResponse[];
@@ -78,7 +78,7 @@ export interface leaguesMenu extends cache {
   export interface FixtureObject {
     get: string;
     parameters: FixtureParameters;
-    errors: any[];
+    errors: [];
     results: number;
     paging: Paging;
     response: fixtureResponse[];
@@ -100,8 +100,8 @@ export interface leaguesMenu extends cache {
   }
   
   export interface Fulltime {
-    home?: any;
-    away?: any;
+    home?: string;
+    away?: string;
   }
   
   export interface fixtureGoals {
@@ -133,7 +133,7 @@ export interface leaguesMenu extends cache {
   
   export interface Fixture {
     id: number;
-    referee?: any;
+    referee?: string;
     timezone: string;
     date: string;
     timestamp: number;
@@ -156,7 +156,7 @@ export interface leaguesMenu extends cache {
   
   export interface Periods {
     first: number;
-    second?: any;
+    second?: number;
   }
   
   export interface FixtureParameters {

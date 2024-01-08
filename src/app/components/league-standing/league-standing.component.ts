@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { StandingObject, StandingLeague } from '../../model/football.model';
 import { ApiserviceService } from '../../services/apiservice.service';
 
@@ -9,6 +9,7 @@ import { ApiserviceService } from '../../services/apiservice.service';
   styleUrl: './league-standing.component.css'
 })
 export class LeagueStandingComponent implements OnInit {
+  title = 'FOOTBALL UPDATES'
   public leagueid?: number;
   standingData: StandingLeague[] = [];
 

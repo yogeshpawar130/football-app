@@ -1,7 +1,6 @@
-import { RouterModule, Routes } from '@angular/router';
+import {  Routes } from '@angular/router';
 import { LeagueStandingComponent } from './components/league-standing/league-standing.component';
 import { TeamFixturesComponent } from './components/team-fixtures/team-fixtures.component';
-import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
 {

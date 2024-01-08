@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import {  HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
 import { LeagueStandingComponent } from './components/league-standing/league-standing.component';
 import { TeamFixturesComponent } from './components/team-fixtures/team-fixtures.component';

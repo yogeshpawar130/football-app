@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FixtureObject, StandingObject, cache } from '../model/football.model';
-import { Observable, Subject, of, tap } from 'rxjs';
-import { HttpClient, HttpHeaders,HttpClientModule } from '@angular/common/http';
+import { Observable,  of, tap } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
