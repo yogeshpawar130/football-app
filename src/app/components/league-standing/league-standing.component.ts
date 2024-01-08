@@ -9,6 +9,7 @@ import { ApiserviceService } from '../../services/apiservice.service';
   styleUrl: './league-standing.component.css'
 })
 export class LeagueStandingComponent implements OnInit {
+  title = 'FOOTBALL UPDATES';
   public leagueid?: number;
   standingData: StandingLeague[] = [];
 
