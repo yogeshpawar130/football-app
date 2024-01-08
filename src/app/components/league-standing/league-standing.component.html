@@ -1,0 +1,39 @@
+<app-nav-bar [selected]="leagueid"  ></app-nav-bar>
+<!-- <p>league-standing works!</p>
+
+{{leagueid}} -->
+
+
+<div class="container">  
+    <table class="table-bordered" >
+      <thead>
+        <tr>           
+          <th>Id</th>
+          <th>Logo</th>
+          <th>Name</th>
+          <th>Games</th>
+          <th>Win</th>
+          <th>Draw</th>
+          <th>Lose</th>
+          <th>Goal Differance</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr *ngFor="let element of standingData">           
+          <td> {{element.team.id}}</td>
+          <td> <img src={{element.team.logo}} alt ="countryflag" height="30" width="30"></td>
+          <td><a [routerLink]="[element.team.id]"> {{element.team.name}}</a></td>
+          <td> {{element.all.played}}</td>
+          <td> {{element.all.win}}</td>
+          <td> {{element.all.draw}}</td>
+          <td> {{element.all.lose}}</td>
+          <td> {{element.goalsDiff}}</td>
+          <td> {{element.points}}</td>
+        </tr>
+      </tbody> 
+    </table>
+    </div>  
+    <div>
+  </div>

@@ -1,0 +1,15 @@
+<!-- <p>nav-bar works!</p>
+<button type="submit" (click)="dataflow()"></button>
+{{selected}} -->
+
+<div class="container">
+    <div class="leagueList-menu">
+      <ul>
+        <li *ngFor="let element of countryList">
+          <a id="{{element.label}}" [routerLink]="['/', element.id]"  [class.active]="element.id === selected">
+            {{ element.value }} 
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>

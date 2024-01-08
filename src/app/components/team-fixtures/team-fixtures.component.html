@@ -1,0 +1,27 @@
+<!-- <p>team-fixtures works!</p>
+{{leagueid}}
+
+{{teamid}} -->
+
+<div class="container">
+    <div class="card-container">
+      <div  class="result-card" *ngFor="let element of result">
+        <div class="home-team"><img src={{element.teams.home.logo}} alt ="countryflag" width="30" height="30"></div>
+        <div class="home-team">{{element.teams.home.name}}</div>
+        <div class="result-block">
+          <div class="row">
+            <span class="col-sm-4">{{element.score.fulltime.home }}</span><span class="col-sm-4"> - </span><span class="col-sm-4">{{element.score.fulltime.away}}</span>
+          </div>  
+        </div>
+        <div class="away-team">{{element.teams.away.name}}</div>
+        <div class="away-team"><img src={{element.teams.away.logo}} alt ="countryflag" width="30" height="30" ></div>
+      </div>
+    </div>
+    <div class="button-left">
+      <button type="button" class="btn btn-primary" (click)="backtoStanding()">Back</button>
+      </div>
+    </div>
+    
+    
+    
+    

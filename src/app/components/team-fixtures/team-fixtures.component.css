@@ -1,0 +1,55 @@
+
+.card-container {
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.result-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: 20px;
+    padding: 15px 10px;
+}
+
+.home-team {
+    width: 150px;
+    text-align: right;
+}
+
+.result-block {
+    width: 100px;
+    margin: 200px;
+}
+
+div {
+    text-align: center;
+}
+
+.away-team {
+    width: 150px;
+}
+
+.button-left {
+    text-align: left !important;
+}
+
+.button-left button {
+    font-family: arial, sans-serif;
+    width: 150px;
+    margin-left: 110px;
+    width: 150px;
+    margin-left: 110px;
+    background: #51a6dd;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #51a6dd;
+    height: 30px;
+    border-radius: 5px;
+}

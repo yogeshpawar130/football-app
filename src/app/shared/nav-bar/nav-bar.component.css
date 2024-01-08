@@ -1,0 +1,57 @@
+.leagueList-menu {
+    background: #bfb9b9d9;
+    border: 1px solid #afadad;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background: none !important;
+  }
+  
+  button:hover {
+    text-decoration-line: underline !important;
+    color: blue !important;
+  }
+  
+  button {
+    height: 2rem;
+  
+  }
+  
+  ul {
+    font-family: arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  li {
+    float: left;
+    margin: 0px 100px 0px 50px;
+  
+  }
+  
+  li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  
+  ul li .active {
+    color: blue;
+    text-decoration: underline
+  }
+  
+  .container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
